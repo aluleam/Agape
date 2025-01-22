@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -60,3 +61,23 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+=======
+# Ignore macOS system files
+.DS_Store
+
+# Ignore build folders
+/bin/
+/obj/
+/build/
+
+# Ignore the xcassets folder (specific to your issue)
+Agape/Assets.xcassets/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+Agape/AgapeApp.swift
+>>>>>>> ee8c20f (Initial commit)
