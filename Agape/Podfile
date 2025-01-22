@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+
+target 'Agape' do
+  use_frameworks!
+  
+  # Add other pod dependencies here if any
+  
+  pod 'FSCalendar'
+end
